@@ -39,7 +39,7 @@ body:
     attributes:
       label: Importancy
       description: |
-        To your knowledge how would you describe the importancy of this bug?
+        To your knowledge how would you describe the importancy of this feature?
       options:
         - Not Really Needed
         - Would Be Nice
