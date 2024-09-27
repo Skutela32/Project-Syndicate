@@ -8,8 +8,9 @@ body:
   - type: markdown
     attributes:
       value: |
-        Thank you for taking the time to fill out this bug report.
+        Thank you for taking the time to fill out this bug report!
         Only bug related issues are accepted, so please refrain from submitting any other requests (including support requests).
+        Any duplicate requests will be closed.
         
         \* Issue reports that fail to deliver the proper information may be closed without any feedback.
   
