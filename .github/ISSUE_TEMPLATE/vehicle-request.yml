@@ -1,0 +1,55 @@
+name: Vehicle Rquest
+description: Request a vehicle to be added to Project Syndicate
+labels: ["vehicle-bug"]
+assignees:
+  - 
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for taking the time to suggest a new vehicle!
+        Only vehicle related suggestions are accepted, so please refrain from submitting any other requests (including support requests).
+        Any duplicate requests will be closed.
+        
+        \* Suggestions that fail to deliver the proper information may be closed without any feedback.
+  
+  - type: input
+    id: username
+    attributes:
+      label: Discord Username
+      description: |
+        This is required to be able to find your account if needed
+      placeholder: 
+    validations:
+      required: true
+      
+  - type: textarea
+    id: describe
+    attributes:
+      label: Please link the vehicle mod or if its a custom file create a ticket upload it there and add the ticket number here.
+      description: |
+        Create a ticket and put the ticket number here!
+      placeholder: 
+    validations:
+      required: true
+  
+  - type: dropdown
+    id: level
+    attributes:
+      label: Level Unlocked At
+      description: |
+        The level which the vehicle would be unlocked at.
+      options:
+        - 1-5
+        - 6-10
+        - 11-15
+        - 16-20
+        - 21-25
+        - 26-30
+        - 31-35
+        - 36-40
+        - 41-45
+        - 46-50
+    validations:
+      required: true
