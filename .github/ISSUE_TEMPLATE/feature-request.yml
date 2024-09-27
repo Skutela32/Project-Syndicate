@@ -1,0 +1,50 @@
+name: Bug Report
+description: Request a feature to be added to Project Syndicate
+labels: ["feature"]
+assignees:
+  - 
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for taking the time to request a new feature!
+        Only feature related issues are accepted, so please refrain from submitting any other requests (including support requests).
+        Any duplicate requests will be closed.
+        
+        \* Issue reports that fail to deliver the proper information may be closed without any feedback.
+  
+  - type: input
+    id: username
+    attributes:
+      label: Discord Username
+      description: |
+        This is required to be able to find your account if needed
+      placeholder: 
+    validations:
+      required: true
+      
+  - type: textarea
+    id: describe
+    attributes:
+      label: Please Describe The Feature In Detail.
+      description: |
+        Please be clear and concise
+      placeholder: 
+    validations:
+      required: true
+  
+  - type: dropdown
+    id: importancy
+    attributes:
+      label: Importancy
+      description: |
+        To your knowledge how would you describe the importancy of this bug?
+      options:
+        - Not Really Needed
+        - Would Be Nice
+        - Somewhat Needed
+        - Would Improve Gameplay
+        - 100% Needed!
+    validations:
+      required: true
