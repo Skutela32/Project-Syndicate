@@ -1,5 +1,5 @@
 name: Bug Report
-description: Create a report to help us improve HighLife
+description: Create a report to help us improve Project Syndicate
 labels: ["bug", "triage"]
 assignees:
   - 
@@ -14,11 +14,11 @@ body:
         \* Issue reports that fail to deliver the proper information may be closed without any feedback.
   
   - type: input
-    id: steam-name
+    id: username
     attributes:
-      label: Steam Username
+      label: Discord Username
       description: |
-        This is required to be able to find your player account if needed
+        This is required to be able to find your account if needed
       placeholder: 
     validations:
       required: true
